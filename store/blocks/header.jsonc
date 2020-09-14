@@ -1,0 +1,91 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#notification",
+      "header-row#main"
+    ]
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#notification",
+      "header-row#main-mobile",
+      "header-row#search"
+    ]
+  },
+  "header-row#notification": {
+    "children": [
+      "header-spacer",
+      "rich-text#header",
+      "header-spacer"
+    ]
+  },
+  "header-row#main": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "search-bar",
+      "minicart",
+      "login"
+    ],
+    "props": {
+      "inverted": true,
+      "sticky": true,
+      "fullWidth": false,
+      "blockClass": "nav"
+    }
+  },
+  "header-row#main-mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "header-spacer",
+      "minicart",
+      "login"
+    ],
+    "props": {
+      "sticky": true,
+      "inverted": true,
+      "blockClass": "nav_mobile"
+    }
+  },
+  "header-row#search": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "sticky": true
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Login"
+    }
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://imagensbrasil.org/images/2020/09/12/logo-90px.png?__cf_chl_jschl_tk__=73020106a51c08dd792e47955593d2c7e59c5fed-1600027201-0-ATCvSjZRjRwhQ0xLgdkwOhP_Bya7838iXDjjRoOeMs03MHh4eP7FkhoawMSGkU739BLOmVnm1XuyiePyefdMPvjoeHA-QWv80xWmtYqXUMW4XkzP9cRzvvXzWjyNF6-mm8XXoczATJwz5HuQrkxun_PurWzpNHhxTSulWw8RT_nG7M5LfbYN7QgELNn_tt9vSQYL0_8pt0zL4t7cf3V0cf1fnJe1dq6d0PPkTttMLAH-I81BiQZ3Z1AlYhLqduvl8l6YsGIMeAw54OAVFeunLkcJ3uRwfIJ7XqnGl-1SATiqvMXbZO2-tLdQo9bdhAkCMA",
+      "width": "70"
+    }
+  },
+  "rich-text#header": {
+    "props": {
+      "text": "Loja criada para o desafio Hiring Coders by Gama Academy",
+      "textPosition": "CENTER"
+    }
+  }
+}
