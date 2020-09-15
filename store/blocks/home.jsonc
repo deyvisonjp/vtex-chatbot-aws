@@ -1,7 +1,20 @@
 {
-  "store.home": { 
+  "store.home#{templatename}": { 
     "blocks": [
-      "shelf"
+      "flex-layout.row#banner"
     ]
+  },
+
+  "flex-layout#banner": {
+    "children": [
+      "image#banner"
+    ]
+  },
+
+  "image#banner": {
+    "props": {
+      "src": "https://hiringcoders19.vteximg.com.br/arquivos/BANNER.png",
+      "maxHeight": "600px"
+    }
   }
 }
