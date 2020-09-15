@@ -34,6 +34,7 @@
   "header-row#main": {
     "children": [
       "logo",
+      "menu-item#chat",
       "header-spacer",
       "search-bar",
       "minicart",
@@ -86,6 +87,28 @@
     "props": {
       "text": "Loja criada para o desafio Hiring Coders by Gama Academy",
       "textPosition": "CENTER"
+    }
+  },
+  "menu-item#chat": {
+    "props": {
+      "id": "link-chat",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "http://www.buzzr.com.br/chat.html",
+        "noFollow": false,
+        "tagTitle": "chat",
+        "text": "Chat"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
     }
   }
 }

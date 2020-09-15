@@ -18,7 +18,8 @@
   "flex-layout.row#footer": {
     "children": [
       "social-networks",
-      "image"
+      "image",
+      "accepted-payment-methods"
     ]
   },
   "flex-layout.row#footer-mobile": {
@@ -49,7 +50,7 @@
   "image": {
     "props": {
       "width": 60,
-      "src": "https://i.ibb.co/k8Q3Dp3/logo-90px.png",
+      "src": "https://i.ibb.co/k8Q3Dp3/logo-90px.png"
     }
   }
 }
