@@ -1,13 +1,13 @@
 {
-  "store.home#{templatename}": { 
+  "store.home#{templatebanner}": { 
     "blocks": [
       "flex-layout.row#banner"
     ]
   },
 
-  "flex-layout#banner": {
+  "flex-layout.row#banner": {
     "children": [
-      "image#banner"
+      "image#banner",
     ]
   },
 
