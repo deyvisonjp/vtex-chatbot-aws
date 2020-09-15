@@ -19,38 +19,49 @@
     "children": [
       "social-networks",
       "image",
-      "accepted-payment-methods"
-    ]
+      "rich-text#sobre"
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
   },
   "flex-layout.row#footer-mobile": {
     "children": [
-      "social-networks"
+      "social-networks",
+      "image",
+      "rich-text#sobre"
     ]
   },
   "social-networks": {
     "props": {
       "socialNetworks": [
-          {
-              "url": "https://facebook.com/",
-              "name": "Facebook"
-          },
-          {
-              "url": "https://www.instagram.com/?hl=pt-br",
-              "name": "Instagram"
-          },
-          {
-              "url": "https://twitter.com/",
-              "name": "Twitter"
-          }
+        {
+          "url": "https://facebook.com/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/?hl=pt-br",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://twitter.com/",
+          "name": "Twitter"
+        }
       ],
       "showInColor": true
-
     }
   },
   "image": {
     "props": {
       "width": 60,
       "src": "https://i.ibb.co/k8Q3Dp3/logo-90px.png"
+    }
+  },
+  "rich-text#sobre": {
+    "props": {
+      "text": "Mais sobre nós em [{OctaCode}](https://onedrive.live.com/view.aspx?resid=BE8F714CEFFFB90A!1052&ithint=file%2cpptx&authkey=!AJafW6L4Qs5oK2g).",
+      "textColor": "c-on-emphasis",
+      "textPosition": "CENTER"
     }
   }
 }

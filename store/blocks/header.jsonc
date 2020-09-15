@@ -52,6 +52,7 @@
       "drawer",
       "logo",
       "header-spacer",
+      "menu-item#chat",
       "minicart",
       "login"
     ],
@@ -103,7 +104,7 @@
       },
       "iconProps": {
         "id": "bnd-logo",
-        "size": 16,
+        "size": 20,
         "viewBox": "0 0 16 16",
         "activeClassName": "rebel-pink",
         "mutedClassName": "c-action-primary"
